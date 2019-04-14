@@ -1,3 +1,14 @@
+"""
+Henry Plaskonos
+4/14/2019
+
+This program is for research into bee pollenation habits. This program
+was made to find whether or not a be is present in an image. It does so by
+averaging images together, then taking an image-wise difference between the 
+average and each image.
+"""
+
+
 import numpy as np
 import glob
 import skimage
